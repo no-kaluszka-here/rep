@@ -2,4 +2,9 @@ body {
       background: url('Pillars_of_Creation.jpeg') no-repeat;
       background-size: cover;
       font-family: Arial;
-}
+      }
+      ul {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;      
+      }   
