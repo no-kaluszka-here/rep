@@ -1,5 +1,5 @@
 body {
-      background-image: url("Pillars_of_Creation.jpeg") no-repeat;
+      background: url('Pillars_of_Creation.jpeg') no-repeat center;
       background-size: cover;
       font-family: Arial;
       }
