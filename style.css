@@ -3,7 +3,6 @@ body {
       background-size: cover;
       font-family: Arial;
       }
-      h1 {
-      margin: 0px;
-      padding: 0px;   
-      }   
+      p { 
+         text-align: center;
+      }
