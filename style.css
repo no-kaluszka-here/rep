@@ -4,10 +4,15 @@ body {
       font-family: Arial;
       }
       p { 
-         width: 400px;
-         height: 100px;   
-         text-align: center;
+      width: 400px;
+      height: 100px;   
+      text-align: center;
       }
-h1 {
+
+      h1 {
       color: WhiteSmoke;
-}
+      }
+
+      form {
+      color: WhiteSmoke;
+      }      
