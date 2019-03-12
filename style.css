@@ -19,5 +19,7 @@ body {
       }
 
       form {
+      position: absolute;
+      left: 200px;      
       color: WhiteSmoke;
       }      
