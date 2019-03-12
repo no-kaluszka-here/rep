@@ -5,10 +5,13 @@ body {
       }
 
       p { 
+      position: absolute;
+      left: 300px;      
       width: 400px;
       height: 100px;   
       background-color: lightblue;      
       text-align: center;
+      margin: auto;
       }
 
       h1 {
