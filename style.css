@@ -25,7 +25,9 @@ body {
 
       h1.s {
       color: WhiteSmoke;
-      font-family: times;      
+      font-family: times;
+      position: absolute;
+      top: 150px;      
       }
 
       form {
