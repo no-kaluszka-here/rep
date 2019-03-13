@@ -18,4 +18,6 @@ body {
 
       form {
       color: WhiteSmoke;
+      position:absolute;
+      left: 250px;      
       }      
