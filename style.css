@@ -12,12 +12,21 @@ body {
       margin: auto;
       }
 
-      h1 {
+      h1.f {
       color: WhiteSmoke;
+      position: absolute;
+      left: 500px;      
+      font-family: serif;      
+      }
+
+
+      h1.s {
+      color: WhiteSmoke;
+      font-family: times;      
       }
 
       form {
       color: WhiteSmoke;
       position:absolute;
-      left: 250px;      
+      left: 500px;      
       }      
