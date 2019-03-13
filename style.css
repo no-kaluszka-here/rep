@@ -15,7 +15,8 @@ body {
       h1.f {
       color: WhiteSmoke;
       position: absolute;
-      left: 500px;      
+      left: 500px;     
+      top: 250px;      
       font-family: serif;      
       }
 
@@ -28,5 +29,6 @@ body {
       form {
       color: WhiteSmoke;
       position:absolute;
-      left: 500px;      
+      left: 500px;
+      top: 300px;      
       }      
