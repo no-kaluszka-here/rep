@@ -14,8 +14,25 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
+  gtag('config', 'AW-800757739');
   gtag('config', 'UA-121416100-4');
+</script>
+  
+  <!-- Event snippet for gitHUB test conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-800757739/fgVGCJPOs5gBEOuv6v0C',
+      'event_callback': callback
+  });
+  return false;
+}
 </script>
   
 </head>
@@ -26,7 +43,8 @@
     
   <h1 class="f"> onSubmit Event Test</h1>
       <br>
-<form action="/rep/action_page.html" onSubmit="gtag('event', 'submit', {'event_category': 'form'});">
+
+  <form action="/rep/action_page.html" onSubmit="gtag('event', 'submit', {'event_category': 'form'});">
   First name:<br>
   <input type="text" name="firstname" value="">
   <br>
@@ -35,6 +53,7 @@
   <br><br>
   <input type="submit" value="Submit">
 </form> 
+  
       <br>
   
       <h1 class="s"> Click the goddamn button! </h1>
@@ -43,9 +62,8 @@
       <br>
       <br>
       <br>
-  <a onClick="gtag('event', 'mate', {'event_category': 'side'});" href=action_page.html>
-              Privet, Artur
-              </a>
+  
+  <a onClick="gtag('event', 'mate', {'event_category': 'side'});" href=action_page.html> Privet, Artur </a>
       
       <button class="but" onclick="gtag('event', 'click', {'event_category': 'some'});" type="button">onClick Event Test </button>
       <br>
