@@ -12,13 +12,13 @@ body {
       text-align: center;
       margin: auto;
       position: fixed;
-      left: 10px;      
+      left: 800px;      
       }
 
       h1.f {
       color: WhiteSmoke;
       position: absolute;
-      left: 400px;     
+      right: 400px;     
       top: 150px;      
       font-family: serif;      
       }
@@ -28,19 +28,21 @@ body {
       color: WhiteSmoke;
       font-family: times;
       position: absolute;
-      top: 150px;      
+      top: 150px;
+      left: 350px;       
       }
 
       form {
       color: WhiteSmoke;
       position:absolute;
-      left: 400px;
+      right: 400px;
       top: 220px;      
       }      
 
       button.but {
       position: absolute;
       top: 220px;
+      left: 350px;      
       }
 
       button.gads {
