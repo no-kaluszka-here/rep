@@ -42,19 +42,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
+  
+<div>
     
-  <h1 class="f"> onSubmit Event Test</h1>
-      <br>
+  <div style="position:absolute; right:300px; top:200px;">
+      <h1 class="f"> onSubmit Event Test</h1>
+      <form onSubmit="gtag('event', 'submit', {'event_category': 'form'});" action="https://mchaika.weebly.com/" >
+            First name:<br>
+            <input type="text" name="firstname" value="">
+            <br>
+            Last name:<br>
+            <input type="text" name="lastname" value="">
+            <br><br>
+            <input type="submit" value="Submit">
+      </form> 
+  </div>   
 
-  <form onSubmit="gtag('event', 'submit', {'event_category': 'form'});" action="https://mchaika.weebly.com/" >
-  First name:<br>
-  <input type="text" name="firstname" value="">
-  <br>
-  Last name:<br>
-  <input type="text" name="lastname" value="">
-  <br><br>
-  <input type="submit" value="Submit">
-</form> 
+ 
   
       <br>
   <div style="height: 150px; width: 300px;">
@@ -73,6 +77,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   <div class="justwidget--asst-pic" style="background-image: url("https://248305.selcdn.ru/zfl_prod/247957849/247957852/WqS5h7YFmaT1Zrls.jpg");"> 
   </div>
+  
+</div>  
   
 </body>
      
