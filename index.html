@@ -53,6 +53,7 @@
   
 </style>
   
+<!-- DYNREM DATALAYER -->
   
 <script>
 var dataLayer=[];
@@ -61,6 +62,26 @@ var dataLayer=[];
     'ecomm_pagetype' : 'product',
     'ecomm_totalvalue' : 49
      });
+</script>  
+  
+<!-- ENHANCED ECOMM DATALAYER -->
+  
+<script>
+dataLayer.push({
+  'ecommerce': {
+    'detail': {
+      'actionField': {'list': 'Test Prod View'},    
+      'products': [{
+        'name': 'Test product',     
+        'id': 'ABC123',
+        'price': '49',
+        'brand': 'Test',
+        'category': 'Clothing',
+        'variant': 'Gray'
+       }]
+     }
+   }
+});
 </script>  
   
 <!-- Google Tag Manager -->
