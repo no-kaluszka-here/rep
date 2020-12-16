@@ -77,7 +77,7 @@ var dataLayer=[];
      });
 </script> -->
 
-  <!-- Global site tag (gtag.js) - Google Analytics  
+  <!-- Global site tag (gtag.js) - Google Analytics 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121416100-4"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -85,7 +85,7 @@ var dataLayer=[];
   gtag('js', new Date());
 
   gtag('config', 'UA-121416100-4');
-</script> -->
+</script>   -->
   
  Global site tag (gtag.js) - Google Ads: 800757739  
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-800757739"></script>
@@ -95,11 +95,12 @@ var dataLayer=[];
   gtag('js', new Date());
   gtag('config', 'G-DF96FYSMRK');
   gtag('config', 'AW-800757739');
+  gtag('config', 'UA-121416100-4', {'custom_map': {'dimension1' : 'ecomm_prodid' , 'dimension2': 'ecomm_pagetype' , 'dimension3': 'ecomm_totalvalue'}});
 </script>
 
 </head>
   
-<body>
+<body onload="gtag('event', 'product_view', {'ecomm_prodid':75284, 'ecomm_pagetype':'view_item', 'ecomm_totalvalue': 150});">
   
   <!-- Google Tag Manager (noscript)-->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5N27K3"
