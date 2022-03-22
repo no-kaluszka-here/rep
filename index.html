@@ -188,7 +188,11 @@ dataLayer.push({
  
       <h1 class="s"> Click the goddamn button! </h1>
 
-      <button onclick="gtag('event', 'click', {'event_category': 'hello'})" class="but" type="button" href="javascript:;"> onClick Event Test </button>
+      <button onclick="gtag('event', 'click', {'event_category': 'hello'})" dataLayer.push({
+    'ecomm_prodid' : 'ABC123',
+    'ecomm_pagetype' : 'product',
+    'ecomm_totalvalue' : 49
+     }); class="but" type="button" href="javascript:;"> onClick Event Test </button>
     
   </div>   
   <div>
