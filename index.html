@@ -18,7 +18,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
+  gtag('config', 'G-HXLQF2RBBF');
   gtag('config', 'DC-11899982');
 </script>
 <!-- End of global snippet: Please do not remove -->
@@ -127,6 +127,11 @@ Event snippet for manually created on : Please do not remove.
 Place this snippet on pages with events you’re tracking. 
 Creation date: 08/22/2023
 -->
+gtag('event', 'custom_purchase', {
+  'transaction_id': '1',
+  'value': '1',
+  'currency':'EUR'	
+});	
 <script>
   gtag('event', 'conversion', {
     'allow_custom_scripts': true,
