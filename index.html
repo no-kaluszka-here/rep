@@ -127,11 +127,13 @@ Event snippet for manually created on : Please do not remove.
 Place this snippet on pages with events you’re tracking. 
 Creation date: 08/22/2023
 -->
+<script>	
 gtag('event', 'custom_purchase', {
   'transaction_id': '1',
   'value': '1',
-  'currency':'EUR'	
-});	
+  'currency':'EUR',
+});
+</script>	
 <script>
   gtag('event', 'conversion', {
     'allow_custom_scripts': true,
