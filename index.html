@@ -2,10 +2,8 @@
 
 <html>
   
-  <title> ANALYTICS TEST </title>
-    
-  <!-- <link href="style.css" rel="stylesheet"> -->
-  
+  <title> FL/GA4 TEST </title>
+      
 <head>
 
 <!-- 
@@ -26,17 +24,19 @@ Place this snippet between the <head> and </head> tags on every page of your sit
 <!--
 Event snippet for click_test on https://no-kaluszka-here.github.io/rep/: Please do not remove.
 Place this snippet on pages with events you’re tracking. 
-Creation date: 03/07/2024
+Creation date: 06/24/2025
 -->
 <script>
+  var fullURL = encodeURIComponent(document.location.href);	
   gtag('event', 'conversion', {
     'allow_custom_scripts': true,
     'u1': '[tester]',
+    'u2': fullURL,
     'send_to': 'DC-11899982/newac0/click0+standard'
-  });
+  });	
 </script>
 <noscript>
-<img src="https://ad.doubleclick.net/ddm/activity/src=11899982;type=newac0;cat=click0;u1=[tester];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=[Random Number]?" width="1" height="1" alt=""/>
+<img src="https://ad.doubleclick.net/ddm/activity/src=11899982;type=newac0;cat=click0;u1=[tester];u2=[url];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=[Random Number]?" width="1" height="1" alt=""/>
 </noscript>
 <!-- End of event snippet: Please do not remove -->
 
