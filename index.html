@@ -5,6 +5,49 @@
   <title> FL/GA4 TEST </title>
       
 <head>
+
+<script>
+  // --- Floodlight Cart Data Variables ---
+
+  // Total revenue of the order
+  var orderRevenue = 123.45;
+
+  // Unique order/transaction ID
+  var orderID = 'TEST_ORDER_ABC123';
+
+  // Google Merchant Center ID
+  var merchantID = 'GMC123456';
+
+  // Feed Label (often country code)
+  var feedLabel = 'US';
+
+  // Feed Language (e.g., 'en')
+  var feedLang = 'en';
+
+  // Product Data String - Key/Value format
+  // Format: iN:{sku}|pN:{price}|qN:{quantity}|cN:{country}|lN:{language}
+  // Repeat for each product, incrementing N (1, 2, 3...)
+  var productData = "i1:SKU123|p1:99.99|q1:1|c1:US|l1:en" +
+                  "|i2:SKU456|p2:11.73|q2:2|c2:US|l2:en";
+
+  // Example with more product attributes:
+  // var productData = "i1:SKU123|p1:99.99|q1:1|c1:US|l1:en|a1:VariantA" +
+  //                 "|i2:SKU456|p2:11.73|q2:2|c2:US|l2:en|a2:VariantB";
+
+</script>
+
+<!-- Google Tag Manager -->
+<!-- YOUR GTM CONTAINER SNIPPET HERE -->
+<!-- End Google Tag Manager -->
+
+
+
+	
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T5N27K3');</script>
 <!-- Google Tag Manager -->
 
 <!-- End Google Tag Manager -->
@@ -183,11 +226,7 @@ dataLayer.push({
 });
 </script> -->
 
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-T5N27K3');</script>
+
 	
   <script>
    $(document).ready(function(){
