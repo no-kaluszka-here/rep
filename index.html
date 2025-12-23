@@ -1,60 +1,24 @@
 <!doctype html>
 
 <html>
-  
-  <title> FL/GA4 TEST </title>
-      
+<title> FL/GA4 TEST </title>      
 <head>
-
 <script>
-  // --- Floodlight Cart Data Variables ---
-
-  // Total revenue of the order
   var orderRevenue = 123.45;
-
-  // Unique order/transaction ID
   var orderID = 'TEST_ORDER_ABC123';
-
-  // Google Merchant Center ID
   var merchantID = 'GMC123456';
-
-  // Feed Label (often country code)
   var feedLabel = 'US';
-
-  // Feed Language (e.g., 'en')
   var feedLang = 'en';
-
-  // Product Data String - Key/Value format
-  // Format: iN:{sku}|pN:{price}|qN:{quantity}|cN:{country}|lN:{language}
-  // Repeat for each product, incrementing N (1, 2, 3...)
   var productData = "i1:SKU123|p1:99.99|q1:1";
-
-  // Example with more product attributes:
-  // var productData = "i1:SKU123|p1:99.99|q1:1|c1:US|l1:en|a1:VariantA" +
-  //                 "|i2:SKU456|p2:11.73|q2:2|c2:US|l2:en|a2:VariantB";
-	var productDataCus = "ABCXYZ123";
+  var productDataCus = "ABCXYZ123";
 </script>
-
-<!-- Google Tag Manager -->
-<!-- YOUR GTM CONTAINER SNIPPET HERE -->
-<!-- End Google Tag Manager -->
-
-
-
 	
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-T5N27K3');</script>
-<!-- Google Tag Manager -->
 
-<!-- End Google Tag Manager -->
-<!-- 
-Start of global snippet: Please do not remove
-Place this snippet between the <head> and </head> tags on every page of your site.
--->
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=DC-11899982"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -63,29 +27,6 @@ Place this snippet between the <head> and </head> tags on every page of your sit
 
   gtag('config', 'DC-11899982');
 </script>
-<!-- End of global snippet: Please do not remove -->
-
-<!--
-Event snippet for click_test on https://no-kaluszka-here.github.io/rep/: Please do not remove.
-Place this snippet on pages with events you’re tracking. 
-Creation date: 06/24/2025
--->
-<script>
-  var fullURL = encodeURIComponent(document.location.href);	
-  gtag('event', 'conversion', {
-    'allow_custom_scripts': true,
-    'u1': '[tester]',
-    'u2': fullURL,
-    'send_to': 'DC-11899982/newac0/click0+standard'
-  });	
-</script>
-<noscript>
-<img src="https://ad.doubleclick.net/ddm/activity/src=11899982;type=newac0;cat=click0;u1=[tester];u2=[url];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=[Random Number]?" width="1" height="1" alt=""/>
-</noscript>
-<!-- End of event snippet: Please do not remove -->
-
-
-
 
 <script>
 window.dataLayer = window.dataLayer || [];
@@ -100,12 +41,6 @@ gtag('consent', 'default',
 });
 </script>
 	
-<!-- 
-Start of global snippet: Please do not remove
-Place this snippet between the <head> and </head> tags on every page of your site.
--->
-<!-- Google tag (gtag.js) -->
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HXLQF2RBBF"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -114,7 +49,6 @@ Place this snippet between the <head> and </head> tags on every page of your sit
 
   gtag('config', 'G-HXLQF2RBBF');
 </script>
-<!-- End of global snippet: Please do not remove -->
 	
   <script
   src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -169,32 +103,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
    margin: 0 auto;
    width: 505px;
   }
-  
 </style>
-  
-<!-- DYNREM DATALAYER   
-  
-<script>
-var dataLayer=[];
-  dataLayer.push({
-    'ecomm_prodid' : 'ABC123',
-    'ecomm_pagetype' : 'product',
-    'ecomm_totalvalue' : 49
-     });
-</script> -->
-
-  <!-- Global site tag (gtag.js) - Google Analytics 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121416100-4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-121416100-4');
-</script>   -->
-  
- 
-
 </head>
   
 <body>
@@ -204,59 +113,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 
-  <!-- ENHANCED ECOMM DATALAYER 
-  
-<script>
-dataLayer.push({
-  'event': 'product_view',
-  'ecommerce': {
-    'detail': {
-      'actionField': {'list': 'Test Prod View'},    
-      'products': [{
-        'name': 'Test product',     
-        'id': 'ABC123',
-        'price': '49',
-        'brand': 'Test',
-        'category': 'Clothing',
-        'variant': 'Gray'
-       }]
-     }
-   }
-});
-</script> -->
-
-
-	
-  <script>
-   $(document).ready(function(){
-			
-		// gtag('event','view_item', {
-		//   'value': $(".prices_block .price").data('value'),
-		//   'items': [
-		//     {
-		//       'id': 75284, 
-		//       'google_business_vertical': 'retail'
-		//     }]
-		// });
-
-    gtag('event', 'product_view', {'ecomm_prodid':"75284", 'ecomm_pagetype':'view_item', 'ecomm_totalvalue': 150})
-		// gtag ('event' , 'Ecomm Product ID' , {'ecomm_prodid' : "75284"});
-		// gtag ('event' , 'Ecomm Page Type' , {'ecomm_pagetype' : "product"});
-		// gtag ('event' , 'Ecomm Total Value' , {'ecomm_totalvalue' : $(".prices_block .price").data('value')});  
-	})
-  </script>
-    <!--
-<script type="text/javascript">
-  dataLayer = []
-  </script>  -->
-  <script>
-  gtag('config', 'AW-800757739/UuYkCJaqhaUBEOuv6v0C', {
-    'phone_conversion_number': '7(499)348-15-43'
-  });
-</script>
-
-  
-  
  <div class="phone">
     <a onclick="gtag('event','this-is-not-a-goal',{'event_category':'just-a-category'})" href="tel:84993481543"> +7 (499) 348-15-43</a>
  </div> 
